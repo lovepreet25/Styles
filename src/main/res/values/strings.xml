@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SCOREKEEPER</string>
+
+
+    <string name="team_red">Team Red</string>
+    <string name="team_blue">Team Blue</string>
+    <string name="team_red_score">0</string>
+    <string name="team_blue_score">0</string>
+    <string name="incrementBy">Points increased by</string>
+    <string name="_point_1">1 </string>
+    <string name="_point_2">2 </string>
+    <string name="_point_3">3 </string>
+
+</resources>

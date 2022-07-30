@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SCOREKEEPER" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkgreen</item>
+        <item name="colorPrimaryVariant">@color/lightgreen</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darkgreen</item>
+        <item name="colorSecondaryVariant">@color/darkgreen</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+<!-- impementing styles of text view, buttons, and radio buttons as whole (theme) -->
+    <item name="android:textViewStyle">
+        @style/txtviewStyle
+    </item>
+    <item name="materialButtonStyle">
+        @style/buttonStyles
+    </item>
+        <item name="android:radioButtonStyle">
+            @style/rbuttonStyles
+        </item>
+
+</style>
+   <!-- creating a style for all the text views of application -->
+<style name="txtviewStyle" parent="Widget.AppCompat.TextView">
+<item name="android:textSize">20dp</item>
+<item name="android:textStyle">bold|italic</item>
+  <item name="android:textColor">@color/black</item>
+    <item name="android:background">@color/superLight</item>
+    <item name="android:textAlignment">center</item>
+</style>
+
+
+    <!-- creating a style for all the buttons of application -->
+<style name="buttonStyles" parent="Widget.AppCompat.ActionButton">
+<item name= "android:textAlignment">center</item>
+    <item name="android:textSize">24dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:width">120dp</item>
+</style>
+    <!-- creating a style for all the radio buttons of application -->
+<style name="rbuttonStyles" parent="Widget.AppCompat.CompoundButton.RadioButton">
+    <item name="android:background">@color/white</item>
+    <item name= "android:textAlignment">center</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:height">20dp</item>
+
+</style>
+    <!-- creating individual or in-styles for setting the buttons of red color -->
+<style name="redbuttons" parent="buttonStyles">
+    <item name="android:background">@color/lightred</item>
+</style>
+    <!-- creating individual or in-styles for setting the buttons of blue color -->
+    <style name="bluebuttons" parent="buttonStyles">
+        <item name="android:background">@color/lightblue</item>
+    </style>
+</resources>

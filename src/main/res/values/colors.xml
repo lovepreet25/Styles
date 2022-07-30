@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkgreen">#144149</color>
+    <color name="lightgreen">#22B6A5</color>
+    <color name="superLight">#B3EFE8</color>
+    <color name="primaryred">#FFE10F0A</color>
+    <color name="grey">#9E9999</color>
+    <color name="lightred">#C65D69</color>
+    <color name="primaryblue">#0F2EED</color>
+    <color name="nightblue">#BDC4EC</color>
+    <color name="lightblue">#6B78C8</color>
+    <color name="rbuttons">#8B67BCB3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nightred">#C8A4A4</color>
+</resources>
